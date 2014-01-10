@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -ex
+
+open-port 9001
+
+cd /opt/api/
+
+python3 server.py 2>&1 &

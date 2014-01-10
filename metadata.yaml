@@ -1,0 +1,11 @@
+name: sentry-example
+summary: <Fill in summary here>
+maintainer: Marco Ceppi <marco@ceppi.net>
+description: |
+  <Multi-line description here>
+categories:
+  - misc
+subordinate: false
+provides:
+  website:
+    interface: http
